@@ -1,11 +1,12 @@
 import React from 'react';
 import chanderHut from '../../images/chander hut.png';
+import './Blogs.css';
 
 const Blogs = () => {
     return (
         <>
-           <section id="blogs">
-           <h1 class="text-center m-5">Blogs</h1>
+           <section id="blogs" className="my-5">
+           <h1 class="text-center mb-5">Blogs</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
@@ -35,8 +36,6 @@ const Blogs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4"></div>
-                    <div className="col-md-4"></div>
                 </div>
             </div>
            </section>
