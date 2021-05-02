@@ -28,7 +28,7 @@ const About = () => {
                                         <a target="_blank" class="btn btn-light" href="https://www.linkedin.com/in/mohammad-mehedi-hasan-bhuiyan-0b3753151/"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
                                     </div>
                                 </div>
-                                <h4>A self-taught software developer with a Bachelor's in Electrical & Electronic Engineering. Besides programming all day, he has a passion for writing about himself in third person.</h4>
+                                <h4>Want to contribute in a well-structured organization where opportunities of self-assessment and take up a challenging job exists and want to enhance organization responsibilities as an assigned person through acquired academic skills, leadership, sincerity & honesty. </h4>
                                 <div className="mt-3">
                                     <a href="#contact"><button class="btn btn-danger me-3">Send Message</button></a>
                                     <button class="btn btn-danger"><a href={resume} download>Download Resume</a></button>
