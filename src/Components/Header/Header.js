@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './Header.css';
 const Header = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-color fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="#">I'M <span class="text-warning">HASAN SAMI</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

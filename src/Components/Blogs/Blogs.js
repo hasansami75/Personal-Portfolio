@@ -8,7 +8,7 @@ const Blogs = () => {
     return (
         <>
            <section id="blogs" className="my-5">
-           <h1 class="text-center mb-5">Blogs</h1>
+           <h1 class="text-center mb-5 heading">Blogs</h1>
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">

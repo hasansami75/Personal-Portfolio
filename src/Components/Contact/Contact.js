@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import './Contact.css';
 
 const Contact = () => {
 
@@ -21,7 +22,7 @@ const Contact = () => {
                 <div className="container bg-dark text-white rounded-3 mb-5">
                     <div className="row">
                         <div className="col-md-12">
-                            <h1 class="text-center my-5">Contact</h1>
+                            <h1 class="text-center my-5 heading-contact">Contact</h1>
                             <form onSubmit={sendEmail} class="w-50 m-auto">
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Your Name</label>

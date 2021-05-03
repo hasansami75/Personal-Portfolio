@@ -15,7 +15,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="about text-center">
-                                <h1 class="m-5">About Me</h1>
+                                <h1 class="m-5 heading">About Me</h1>
                                 <img src={pic} class="img-fluid img-resize rounded-circle" alt="" />
                                 <div class="mt-3 p-2 d-flex justify-content-center">
                                     <div class="me-3">

@@ -8,6 +8,7 @@ import Projects from '../Projects/Projects';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './Home.css';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -19,19 +20,19 @@ const Home = () => {
             <div className="grids">
                 <Header />
                 <HeaderMain />
+                <div data-aos="fade-right" className="boxes">
+                <About />
+                </div>
                 <div data-aos="fade-down" className="boxes">
                     <Projects />
                 </div>
                 <div data-aos="fade-up" className="boxes">
                     <Blogs />
                 </div>
-                <div data-aos="fade-right" className="boxes">
-                <About />
-                </div>
                 <div data-aos="flip-right" className="boxes">
                 <Contact />
                 </div>
-                
+                <Footer/>
             </div>
         </>
     );
